@@ -1,0 +1,82 @@
+.income{
+    list-style: none;
+    text-align: center;
+    background: rgb(163, 250, 221); 
+   margin:30px auto;
+   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+   border-radius: 13px ;
+   padding: 15px;
+   display: flex;
+   position: relative;
+}
+.expense{
+    list-style: none;
+    text-align: center;
+    background: rgb(255, 171, 171); 
+   margin:30px auto;
+   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+   border-radius: 13px ;
+   padding: 15px;
+   display: flex;
+   position: relative;
+}
+label{
+    display: inline-block;
+    margin: 10px 0;
+}
+input{
+    border:1px solid #dedede;
+    border-radius: 10px;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    width:100%;
+    
+}
+.btn{
+    margin-top: 10px;
+background: green;
+border-style: none;
+padding: 8px;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+border-radius: 13px ;
+color: white;
+width: 100%;
+}
+.btn:hover{
+    margin-top: 10px;
+background: linear-gradient(rgb(23, 207, 106),rgb(80, 255, 232));
+border-style: none;
+padding: 8px;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+border-radius: 13px ;
+color: white;
+width: 100%;
+}
+.report-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px;
+    margin: 15px 0;
+
+
+}
+.report-container>div{
+    flex: 1;
+    text-align: center;
+    
+}
+.report-container>div:first-of-type{
+    border-right: 1px solid #f36565;
+}
+.report-plus{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+.report-minus{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}

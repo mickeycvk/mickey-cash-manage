@@ -26,9 +26,9 @@ setAmount(0)
     useEffect(()=>{
       
         const checkData = title.trim().length>0&&amount!==0
-       if(checkData){
-           setFormValid(true)
-       }
+       
+           setFormValid(checkData)
+       
     },[title,amount])
    
     return(

@@ -51,7 +51,7 @@ console.log(income,expense)},[items,reportIncome,reportExpense])
     <Route path="/" exact>
     <ReportComponent/>
     </Route>
-    <Route path="/insert">
+    <Route path="/insert"  >
     <FormComponent onAddItem={onAddNewItem}/>
 
 <Transaction items={items} />
